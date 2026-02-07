@@ -4,20 +4,24 @@
   font-optical-sizing: auto;
   
   font-style: normal;
+  
 }
  * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    margin: 0 auto;
 }
 .container{
-    max-width: 1600px;
+     max-width: 1600px; 
     margin: 0 auto;
 }
 
     
 .header2{
-   
+      max-width:1600px ;  
+    height: 700px;
+   position: relative;
     background-color: aquamarine;
     background: url(../assets/hero-bg.png);
     text-align: center;
@@ -27,6 +31,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
     
 }
 
@@ -69,4 +74,93 @@ background: linear-gradient(90deg,
     color: white;
 
 }
+.btn1{
+    /* max-width: 356px; */
+    gap: 8px;
+    align-items:center ;
 
+}
+.btn2{
+    max-width: 200px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 30px;
+    /* padding: 12px 12px 20px 48px; */
+    padding: 12px;
+    margin-top: 20px;
+    
+    }
+     #banner .banner-image{ 
+         text-align: center;
+        
+    } 
+     .image1{ 
+         /* position: absolute;
+         top: 20%;
+         left: 40%; */
+
+         
+         /* border: 1px solid red;  */
+    } 
+    .image2{
+        max-width: 350px;
+        height: 350px;
+        position: absolute;
+         top: 20%;
+         left: 40%;
+        border: 1px solid greenyellow;
+       
+       
+     }  
+   .peer{
+        position: absolute;
+          top: 30%;
+        left: 47%;
+        z-index: 10;
+    }
+     .banner-content h2{
+        font-size: 3.rem;
+        font-weight: 800;
+        margin-top: 500px;
+        color: #FFFFFF;
+        margin-bottom: 8px;
+        
+    } 
+       .banner-content p{
+        font-size: ;
+        font-weight: ;
+        color: #FFFFFF;
+       }
+
+    #about{
+        max-width: 1600px;
+         background-color: #1A0B2E; 
+        color: white;
+        padding-top: 50px;
+        margin: 0 auto;
+        display: flex;
+       
+    }
+
+    
+    .icon2 h2{
+        font-size: 2.5rem;
+        /* max-width: 1200px; */
+        color: #00ff88 ;
+        margin-bottom: 16px;
+        
+        }
+
+        #starts{
+            max-width: 1200px;
+           display: flex; 
+           align-items: center;
+           margin-top: 160px;
+           gap: 80px;
+        }
+    .section-heading p{
+        max-width: 1200px;
+            gap: 16px;
+            word-spacing: 2px;
+            margin-top: 16px;
+    }
