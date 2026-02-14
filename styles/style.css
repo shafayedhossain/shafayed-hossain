@@ -99,11 +99,28 @@ background: linear-gradient(90deg,
     font-size: 1rem;
     font-weight: 600;
     border-radius: 30px;
+    margin-right: 20px;
     /* padding: 12px 12px 20px 48px; */
     padding: 12px;
     margin-top: 20px;
+     transition: all 1s ease; 
     
+      
     }
+    .btn2:hover{
+        /* transform: scale(1.8);  */
+        transform: rotate(360deg) scale(1.8) translateX(-150px);
+        
+         border-radius: 10%; 
+    border: 2px solid greenyellow; 
+    background-color: red;
+        
+        
+         }
+
+    
+
+
      #banner .banner-image{ 
          text-align: center;
         
@@ -150,8 +167,10 @@ background: linear-gradient(90deg,
         max-width: 1600px;
          background-color: #1A0B2E; 
         color: white;
+        padding: 0;
         padding-top: 50px;
         margin: 0 auto;
+        /* margin-top: 100px; */
         display: flex;
        
     }
@@ -308,5 +327,76 @@ background: linear-gradient(90deg,
     
 
 }
+.footer{
+    margin: 0 auto;
+    /* max-width: 1360px; */
+    /* background-color: #230E3D; */
+    background: url("../assets/footer-bg.png");
+    position:relative ;
+    padding: 120px 0;
+}
+
+.footer-links{
+    max-width: 600px;
+    display: flex; 
+     align-items: center;
+    /* justify-content: center; */
+    gap: 8px;
+   margin-top: 60px;
+   }
+   .footer-links img{
+
+    width: 24px;
+    height: 24px;
+    margin-right: 4px;
+   
+
+   }
+   .footer-item span{
+    font-size: 1rem;
+    font-weight: 600;
+    /* display: flex; */
+    justify-content: center;
+    text-align: center;
+   
+
+       color: #FFFFFF;
+   }
+   .footer-item{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+   }
+   .bottom{
+    margin-top: 35px;
+    color: #FAFAFA;
+    word-spacing: 3px;
+   }
+
+   @media (max-width:576px){
+    nav{
+        flex-direction: column;
+        gap: 15px;
+    }
+    nav .menu{
+        flex-direction: column ;
+        gap: 15px;
+
+    }
+    nav .menu a{
+        font-size: 1.25rem;
+    }
+    .btn{
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+    .header2 {
+    width: 100%;
+    padding: 40px 20px;
+    text-align: center;
+
+   }
+
+
 
 
